@@ -2,5 +2,11 @@
  * SASS allows style rules to be nested inside of other rules, which causes
  * the nested rules to only apply within the outer rule's selector
  */
+body {
+  font-family: 'Times New Roman', Arial, sans-serif; }
+  body p {
+    font-family: Times; }
+  body p.mypara {
+    font-family: "Courier"; }
 
 /*# sourceMappingURL=nested_styles.css.map */
