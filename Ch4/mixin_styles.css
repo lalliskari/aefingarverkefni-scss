@@ -2,5 +2,17 @@
  * SASS mixins are declared with the @mixin directive
  * and used with the @include directive
  */
+header {
+  color: #0ee90e;
+  border-radius: 10px;
+  border: 2px dotted #f75f07;
+  padding: 10px;
+  text-decoration: underline; }
+
+footer {
+  color: #17253a;
+  background-color: yellow;
+  padding: 2em;
+  border-radius: 1em; }
 
 /*# sourceMappingURL=mixin_styles.css.map */

@@ -3,3 +3,24 @@
  * and used with the @include directive
  */
 
+ @mixin commonTraits {
+    border-radius: 10px;
+    border: 2px dotted #f75f07;
+    padding: 10px;
+    text-decoration: underline;
+}
+@mixin commonTraits2 {
+    background-color: yellow;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+header {
+    color: #0ee90e;
+    @include commonTraits;
+}
+
+footer {
+    color: #17253a;
+    @include commonTraits2;
+}
