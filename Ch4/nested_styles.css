@@ -13,6 +13,15 @@ header {
   color: #404040;
   border: 1px solid #404040;
   padding: 10px; }
+  header h1 {
+    font-size: 3em; }
+  header h2 {
+    font-size: 2.5em; }
+  header h3 {
+    font-family: times;
+    font-size: 4em; }
+  header h4 {
+    color: red; }
   header:hover {
     color: #6d23c2; }
 
