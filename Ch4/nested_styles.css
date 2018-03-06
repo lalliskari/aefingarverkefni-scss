@@ -3,10 +3,17 @@
  * the nested rules to only apply within the outer rule's selector
  */
 body {
-  font-family: 'Times New Roman', Arial, sans-serif; }
+  font-family: Arial, sans-serif; }
   body p {
     font-family: Times; }
   body p.mypara {
     font-family: "Courier"; }
+
+header {
+  color: #404040;
+  border: 1px solid #404040;
+  padding: 10px; }
+  header:hover {
+    color: #6d23c2; }
 
 /*# sourceMappingURL=nested_styles.css.map */
