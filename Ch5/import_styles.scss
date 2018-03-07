@@ -3,18 +3,19 @@
  * and can have different kinds of data types: color, string, boolean, multi-value
  */
 
+@import "import_me.scss";
 
 h1, h2 {
     color: $myColor1;
 }
 
-#mypara {
+.mypara {
     font-size: $myFontSize;
     border: $thinBorder;
     padding: $paddingVar;
 }
 
-#mypara:after {
+.mypara:after {
     content: $myStringVar;
 }
 
