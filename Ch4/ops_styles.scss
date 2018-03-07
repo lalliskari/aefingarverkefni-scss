@@ -2,3 +2,13 @@
  * SASS Operators example
  */
 
+ 
+ $myColor: #6f00ff;
+ $basepadding: 10px;
+ $basethickness: 4px;
+ 
+ .list1 {
+     color: $myColor;
+     border: $basethickness solid $myColor;
+     padding: $basepadding;
+ }

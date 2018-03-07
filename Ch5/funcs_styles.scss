@@ -2,3 +2,17 @@
  * Using functions in SASS
  */ 
 
+ $color: #5e8000;
+ h1 {
+     color: $color;
+     background-color: grayscale(invert($color));
+ }
+ h2 { 
+     color: lighten($color, 20%);
+ }
+ h3 {
+     color: darken($color, 5%);
+ }
+ h4 {
+     color: lighten($color, 40%);
+ }
